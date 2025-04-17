@@ -1,0 +1,10 @@
+# Core
+openai>=1.14.0, <2
+python-dotenv>=1.0.1
+
+# Local Whisper + audio
+git+https://github.com/openai/whisper.git@main
+pyaudio>=0.2.14
+
+# PyTorch (pick ONE of the lines below ↓)
+torch==2.3.0 --index-url https://download.pytorch.org/whl/cpu
